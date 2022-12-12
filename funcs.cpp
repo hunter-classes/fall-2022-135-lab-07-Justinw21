@@ -23,6 +23,7 @@ std::string removeLeadingSpaces(std::string line)
     result += "\n";
     return result; 
 }
+//Grabs a line and parses all spaces in the front. Then starts to add the string when it detects the first non-space character.
 
 int countChar(std::string line, char c)
 {
@@ -36,3 +37,4 @@ int countChar(std::string line, char c)
     }
     return result;
 }
+//Counts the amount of a specified character in a line
