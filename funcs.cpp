@@ -15,7 +15,7 @@ std::string removeLeadingSpaces(std::string line)
         {
             firstChar = true; 
         }
-        if(firstChar == true)
+        if(firstChar)
         {
             result += c;
         }
